@@ -1,0 +1,87 @@
+body {
+  background-color: #eae7dc;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8e8d8a;
+  width: 310px;
+  height: 480px;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 15px 5px #696969;
+  border: 2px solid #e98074;
+}
+
+.display {
+  width: 280px;
+  height: 90px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#expression {
+  height: 35px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+#input {
+  height: 50px;
+  font-size: 36px;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.numbers,
+.point {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px #696969;
+  background-color: #d8c3a5;
+  font-size: 24px;
+}
+
+.large {
+  width: 130px;
+}
+
+.clear,
+.backspace {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #e85a4f;
+  box-shadow: 1px 1px 1px 1px #e98074;
+  font-size: 20px;
+}
+
+.operators,
+.plusMinus,
+.equals {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #b8b7b3;
+  box-shadow: 1px 1px 1px 1px #696969;
+  font-size: 24px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 290px;
+  height: 70px;
+}
