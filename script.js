@@ -158,7 +158,6 @@ function deleteLast() {
 
 function changeSign() {
   if (answer !== 0 && answer !== "Error") {
-    console.log("x");
     inputNumber = answer;
     switchSigns = true;
   }
@@ -177,8 +176,8 @@ function addOperator(operSymbol, operName) {
 }
 
 function calculateExpression() {
-  firstNumber = parseInt(firstNumber);
-  secondNumber = parseInt(secondNumber);
+  firstNumber = parseFloat(firstNumber);
+  secondNumber = parseFloat(secondNumber);
   calculate = true;
   answer = operate(firstNumber, secondNumber, operatorName);
 
